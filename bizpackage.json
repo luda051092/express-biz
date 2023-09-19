@@ -1,0 +1,21 @@
+{
+    "name": "35.1-express-biztime",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bizapp.js",
+    "scripts": {
+        "test": "jest -i",
+        "start": "nodemon bizserver.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pg": "^8.5.1",
+        "slugify": "^1.5.0"
+    },
+    "devDependencies": {
+        "supertest": "^6.1.3"
+    }
+}
